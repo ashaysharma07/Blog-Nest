@@ -30,7 +30,7 @@ app.use(cookieParser());
 app.use(cors());
 
  app.use(cors({
-   origin: 'http://localhost:3000'  //to be changed later to vercel url
+   origin: 'https://blog-nest-frontend-theta.vercel.app/'  //to be changed later to vercel url
  }));
 
 app.listen(3000, () => {
